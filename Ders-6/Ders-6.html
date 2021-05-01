@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://localhost/Ders-6/Ders-6.php -->
+<html lang="tr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="php, web sitesi, eticaret, kıyafet">
+    <meta name="description" content="ABC firması 1920 yılında İstanbulda kurulmuştur.">
+    <meta name="author" content="ABC Yazılım Firması Tarafından Kodlanmıştır.">
+    <title>Php Dersleri</title>
+</head>
+
+<body>
+    <h3>Php Programlama</h3>
+    <h4>IF - ELSE</h4>
+
+    <p>Önce Şart belirtilir sonra süslü parantezler içerisine yapılması gereken belirtilir.</p>
+
+    <p>Karşılaştırma Operatörleri: </p>
+    <ol>
+        <li> == ($a == $b) &gt; Eşit ise (Genellikle matematiksel işlemlerde tercih edilir.)</li>
+        <li> != ($a != $b) &gt; Eşitdeğildir. </li>
+        <li> === ($a === $b) &gt; Denk ise (string terimlerde kullanılır.)</li>
+        <li> !== ($a !== $b) &gt; Denk değildir. </li>
+        <li> &gt; ($a &gt; $b) Büyük ise</li>
+        <li> &gt;= ($a &gt;= $b) Büyük yada eşit ise</li>
+        <li>
+            &lt; ($a &lt; $b) Küçük ise</li>
+        <li>
+            &lt;= ($a &lt;=$b) Küçük yada eşit ise</li>
+    </ol>
+
+    <p>Mantıksal Operatörler: </p>
+
+    <ol>
+        <li> ! Olumsuzsa (!$a) --&gt; $a’nın değeri olumsuz yani FALSE ise TRUE yani doğru döner. Aksini yapar olumsuz mu diye sorar. </li>
+        <li> &amp;&amp; Ve ($a &amp;&amp; $b) --&gt; $a ve $b’nin değeri olumlu ise olumlu yani TRUE döner, ikisinden birisi olumsuz ise olumsuz yani FALSE döner.</li>
+        <li> || Ya da ($a || $b) --&gt; $a’nın değeri ya da $b’nin değeri olumlu ise olumlu döner. Birisinin ya da ikisininde olumlu olması yeterlidir.</li>
+    </ol>
+
+    <p>Not: </p>
+    <ul>
+        <li> elseif sürekli tekrar eden sorgu açar.</li>
+        <li> else son kapanış koşuludur. (Herhangi bir şart içermez, yukarıda verilen hiçbir şart sağlanmazsa döngü buraya girer ve sonlanır.)</li>
+    </ul>
+
+    <h3> IF Uygulama-1:   </h3> <hr>$sayi1 = 123  -----  $sayi2 = 55 ----- $ders = Php Programlama  <br><br><b>Bu şart içindeki $sayi1 değişkenin değeri vardır: </b> 123<br><b>Bu şart içindeki değer $sayi1 değişkenine eşit: </b> 123<br><b>Bu şart içindeki değer $sayi1 değişkenine eşit değilse: </b> 123<br>Koşul sağlandı - AND <br>Koşul sağlandı - &amp;&amp; <br>Koşul sağlandı  OR <br>Koşul sağlandı  ||  <br><b> Bu şart içindeki değer $ders değişkeninin aynısı: </b>  Php Programlama <br><b> $sayi1 değişkeni $sayi2 değişkeninden büyük: </b> 123 &gt;  55<br><b> $sayi2 değişkeni $sayi1 değişkeninden küçük: </b> 55 &lt; 123<br><b> $sayi1 değişkeni $sayi3 değişkenine eşit yada büyük: </b> 123 &gt;= 123<br><b> $sayi2 değişkeni $sayi3 değişkenine eşit yada küçük: </b> 55 &lt;= 123<br><h3> If Uygulama-2: Değerin 0-100 arasında olup olmadığının kontrolü:</h3> <hr>Bu sayı 0-100 arasında değildir. (167)<br><br><br><br><br><br><h3> If Uygulama-3: Doğum Yılına Göre Ehliyet Alabilme Durum Kontrolü :</h3> <hr>Ehliyet Alabilirsiniz. Yaşınız: 42<h3> If Uygulama-4: Yukarıdaki örneğin aynısını form üzerinden girilen verilere göre işleyiniz.   </h3> <hr>
+    <form action="http://localhost/Ders-6/Ders-6.php">
+        <input type="text" name="birthday" placeholder="Doğum Yılınızı Giriniz.">
+        <input type="submit" value="Gonder">
+    </form>
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+</body></html>
